@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<title>...</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+		<link href="https://fonts.googleapis.com/css?family=Ubuntu:700,700italic,400,400italic" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="assets/main.css" />
+		<link rel="icon" type="image/png" href="assets/images/favicon.png" />
+		<noscript><link rel="stylesheet" href="assets/noscript.css" /></noscript>
+		<script src="config.js"></script>
+		<script>
+			document.title = siteTitle;
+		</script>
+
+<meta name="description" content="The official website of Vihaan Saini. Find the latest content,and support your favorite creator." />
+<meta property="og:site_name" content="Vihaan Saini">
+<meta property="og:url" content="https://talkative.studio/">
+<meta property="og:title" content="Vihaan Saini">
+<meta property="og:type" content="website">
+<meta property="og:description" content="The official website of Vihaan Saini. Find the latest content,and support your favorite creator.">
+<meta property="og:image" content="https://vihaansaini.github.io/assets/images/profile.jpg">
+<meta property="og:footer" content="https://talkative.studio/">
+
+
+
+		<!-- AUTO -->
+		<script>document.write(`<style>#icons01 a svg {fill: ${buttonColor};}#icons01 a:hover svg {fill: ${buttonHoverColor} !important;}#main {background-image: linear-gradient(160deg, ${firstBoxGradColor} 0%, ${secondBoxGradColor} 100%);}</style>`);</script>
+	</head>
+	<body class="is-loading">
+		<div id="wrapper">
+			<div id="main">
+				<div class="inner">
+					<div id="columns01" class="container columns">
+						<div class="inner">
+							<div>
+								<h1 id="text01"><script>document.write(siteTitle);</script></h1>
+								<p id="text02"><script>document.write(siteDescription);</script></p>
+								<ul id="icons01" class="icons">
+									<script>
+										buttonsArray.forEach(item => {
+											let itemContent = item.split("::");
+											let itemLink = itemContent[0];
+											let itemIcon = itemContent[1];
+											document.write(`<li><a class="n01" href="${itemLink}"><svg><use xlink:href="assets/icons.svg#${itemIcon}"></use></svg><span class="label">${itemIcon}</span></a></li>`);
+										});
+									</script>
+								</ul>
+							</div>
+							<div>
+								<div id="image01" class="image">
+									<img src="assets/images/profile.jpg" alt="" />
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="assets/main.js"></script>
+	</body>
+</html>
