@@ -13,7 +13,7 @@ var secondBoxGradColor = "#00F0F80F"; //FA8C00 00F0F80F
 var buttonsArray = [
     // Format: "LINK::Icon"
     // "http://example.com::twitter"
-    "https://vihaansaini.github.io/::globe",
+    "https://talkative.studio/::globe",
     "https://discord.gg/PCypEXv5Wa::discord",
     "https://www.youtube.com/channel/UCGieKr5OZNYJkX-ApseKSuA::youtube",
     "https://instagram.com/vihaan_saini/::instagram",     
